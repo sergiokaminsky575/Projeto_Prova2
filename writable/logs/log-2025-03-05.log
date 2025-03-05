@@ -1,0 +1,52 @@
+CRITICAL - 2025-03-05 17:39:19 --> ErrorException: Cannot use positional argument after named argument
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-05 17:39:41 --> ErrorException: Cannot use positional argument after named argument
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-05 17:49:54 --> ErrorException: Cannot use positional argument after named argument
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-05 18:26:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/top_bar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/top_bar.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('partials/top_bar', [], true)
+ 3 APPPATH\Views\quest01.php(23): view('partials/top_bar')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\projeto_Prova\\app\\Views\\quest01.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('quest01', [], true)
+ 7 APPPATH\Controllers\Home.php(10): view('quest01', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 19:02:38 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\quest01.php on line 54.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('quest01', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('quest01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 19:02:53 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\quest01.php on line 54.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('quest01', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('quest01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
