@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://codeigniter.com/">
-    <img src="https://i.imgur.com/G7kD4ZK.png" alt="CodeIgniter 4 Logo" width="150">
-  </a>
-</p>
-
-
 # Projeto Prova2
 
 Este projeto foi desenvolvido como parte de uma **prova técnica** para um processo seletivo de emprego.  
