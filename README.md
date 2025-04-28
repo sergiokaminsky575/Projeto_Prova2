@@ -7,7 +7,7 @@ Nome: Projeto Prova2
 
 Objetivo: Realizar cálculos específicos utilizando boas práticas de programação PHP, dentro do framework CodeIgniter 4.
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">
+ [ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8g0_mDNh0hZ957BAfMtQUNWmGJECLslKlsLI0yoC4gVrdqjgDbn56tQ&s)
 </p>
 Tecnologias utilizadas:
 
