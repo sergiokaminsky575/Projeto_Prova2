@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://codeigniter.com/assets/icons/ci-logo.svg" alt="CodeIgniter 4 Logo" width="150">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">
 </p>
 Projeto Prova2
 Este projeto foi desenvolvido como parte de uma prova técnica para processo seletivo de emprego.
