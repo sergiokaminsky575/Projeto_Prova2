@@ -1,60 +1,80 @@
-# CodeIgniter 4 Framework
+Projeto Prova2
+Este projeto foi desenvolvido como parte de uma prova técnica para processo seletivo de emprego.
+Seu objetivo é demonstrar habilidades de programação PHP, aplicando cálculos específicos dentro da estrutura do framework CodeIgniter 4.
 
-## What is CodeIgniter?
+Sobre o Projeto
+Nome: Projeto Prova2
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Objetivo: Realizar cálculos específicos utilizando boas práticas de programação PHP, dentro do framework CodeIgniter 4.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Tecnologias utilizadas:
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+PHP 8.1+
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+CodeIgniter 4
 
-## Important Change with index.php
+HTML/CSS básico (opcional, se aplicável)
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Framework: CodeIgniter 4
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Como Executar
+Clone o repositório:
 
-**Please** read the user guide for a better explanation of how CI4 works!
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/Projeto_Prova2.git
+Acesse a pasta do projeto:
 
-## Repository Management
+bash
+Copiar
+Editar
+cd Projeto_Prova2
+Configure um servidor local (como Apache/Nginx) para apontar para a pasta /public do projeto.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Acesse pelo navegador:
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+bash
+Copiar
+Editar
+http://localhost/Projeto_Prova2/public
+Estrutura do Projeto
+/app — Código principal (Controllers, Models, Views)
 
-## Contributing
+/public — Pasta pública (index.php e arquivos acessíveis)
 
-We welcome contributions from the community.
+/writable — Arquivos gerados em tempo de execução (cache, logs, uploads)
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+/tests — Testes de unidade (se aplicável)
 
-## Server Requirements
+CodeIgniter 4 Framework
+O que é o CodeIgniter?
+O CodeIgniter é um framework PHP full-stack, leve, rápido, flexível e seguro.
+Mais informações podem ser encontradas no site oficial.
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+Este projeto foi construído com a estrutura de distribuição do CodeIgniter 4.
+Para detalhes sobre seu funcionamento, consulte o guia do usuário.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+Mudança Importante no index.php
+O arquivo index.php agora está localizado dentro da pasta public/, aumentando a segurança da aplicação.
+Importante: configure seu servidor web para apontar diretamente para a pasta /public, e não para a raiz do projeto.
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+Requisitos do Servidor
+PHP 8.1 ou superior
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Extensões obrigatórias:
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+intl
+
+mbstring
+
+json (habilitado por padrão)
+
+mysqlnd (se utilizar MySQL)
+
+libcurl (se utilizar a biblioteca HTTP\CURLRequest)
+
+Nota: O suporte oficial ao PHP 7.4 e 8.0 foi encerrado. Recomenda-se a atualização para PHP 8.1 ou superior.
+
+Autor
+Sergio Augusto Abreu Kaminsky
