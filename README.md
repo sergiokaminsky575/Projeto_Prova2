@@ -1,4 +1,4 @@
-# Projeto Prova Tecnica para um processo seletivo de emprego
+# Projeto de Prova Técnica - Desenvolvimento em PHP (CodeIgniter 4)
 
 Este projeto foi desenvolvido como parte de uma **prova técnica** para um processo seletivo de emprego.  
 Seu objetivo é demonstrar habilidades de programação PHP, aplicando cálculos específicos dentro da estrutura do framework **CodeIgniter 4**.
