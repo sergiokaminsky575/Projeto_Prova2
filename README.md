@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">
-</p>
 Projeto Prova2
 Este projeto foi desenvolvido como parte de uma prova técnica para processo seletivo de emprego.
 Seu objetivo é demonstrar habilidades de programação PHP, aplicando cálculos específicos dentro da estrutura do framework CodeIgniter 4.
@@ -9,7 +6,9 @@ Sobre o Projeto
 Nome: Projeto Prova2
 
 Objetivo: Realizar cálculos específicos utilizando boas práticas de programação PHP, dentro do framework CodeIgniter 4.
-
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">
+</p>
 Tecnologias utilizadas:
 
 PHP 8.1+
