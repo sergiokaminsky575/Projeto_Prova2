@@ -1,8 +1,9 @@
 <p align="center">
   <a href="https://codeigniter.com/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CodeIgniter_Logo.svg/320px-CodeIgniter_Logo.svg.png" alt="CodeIgniter 4 Logo" width="150">
+    <img src="https://i.imgur.com/G7kD4ZK.png" alt="CodeIgniter 4 Logo" width="150">
   </a>
 </p>
+
 
 # Projeto Prova2
 
