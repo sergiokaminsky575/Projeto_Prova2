@@ -1,4 +1,4 @@
-# Projeto Prova2
+# Projeto Prova Tecnica para um processo seletivo de emprego
 
 Este projeto foi desenvolvido como parte de uma **prova técnica** para um processo seletivo de emprego.  
 Seu objetivo é demonstrar habilidades de programação PHP, aplicando cálculos específicos dentro da estrutura do framework **CodeIgniter 4**.
